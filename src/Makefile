@@ -27,7 +27,7 @@ make_sms:  MSOS.SMS
 MSOS.SMS: $(OBJ_SMS)
 	  $(LINK_Z80) $(OBJ_SMS)   -o MSOS.IHX
 	  $(HOME_Z80)/makebin -s 31744 <MSOS.IHX > MSOS.SMX
-#	  cat MSOS.SMX font_sms.bin > MSOS.SMS
+	  # cat MSOS.SMX font_sms.bin > MSOS.smo
 	
 %_sms.rel : %.c
 	$(CC_Z80) -c $< -o $@ -D CART_MSED
@@ -43,3 +43,4 @@ clean_sms:
 	$(RM) *.lst
 	$(RM) *.o
 	$(RM) MSOS.*
+

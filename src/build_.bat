@@ -1,4 +1,4 @@
-path = ..\everdrive-sdk\bin;
-make clean_sms
-make make_sms
-type MSOS.SMX font_sms.bin > MSOS.mso
+path = ..\..\bin;
+make -f makefile clean
+make -f makefile
+pause
