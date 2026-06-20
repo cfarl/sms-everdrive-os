@@ -12,3 +12,4 @@
 *.stackdump
 *.o
 *.smx
+MSOS.*
