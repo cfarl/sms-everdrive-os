@@ -315,7 +315,8 @@ void osAbout() {
         gConsPrint("I. Golubovskiy");
     } else {
         gConsPrint("Master EverDrive Flash Cart");
-        gConsPrint("Developed by I. Golubovskiy");
+        //gConsPrint("Developed by I. Golubovskiy");
+        gConsPrint("Compiled by Luiz Curado");
     }
 
 

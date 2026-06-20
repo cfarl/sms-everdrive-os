@@ -1,30 +1,28 @@
 SMS Everdrive source
 ====================
 
-Esse projeto é um fork dos fontes para gerar o firmware do everdrive V1 de Master System do Krikzz
+This project is a fork of the source code used to generate the V1 Krikzz Master System everdrive firmware
 
-Os fontes originais podem ser encontrados aqui: https://github.com/smspower/sms-everdrive-os
+The original source code can be found here: https://github.com/smspower/sms-everdrive-os
 
-Importante: Esse firmware funciona no everdrive chinês vendido no Ali Express.
+Important: This firmware works in the chinese everdrive sold in Ali Express.
 
 ------------------------------------------------------------------------------------
-Configurar ambiente
+Source Code Compiling
 ------------------------------------------------------------------------------------
 
-1) Instalar SDCC 3.3 na pasta c:\SDCC
+1) Install SDCC 3.3 in the c:\SDCC-3.3 folder
 
-- Pegar em https://sourceforge.net/projects/sdcc/files/sdcc-win64/3.3.0/
+- Download it here: https://sourceforge.net/projects/sdcc/files/sdcc-win64/3.3.0/
 
-2) Ferramentas que estão na pasta "everdrive-sdk":
+2) Tools in folder "everdrive-sdk":
 
-- Foram obtidas do arquivo mega-ed-sdk.7z em https://krikzz.com/pub/support/mega-everdrive/v1/dev/
+- They where obtained from the "mega-ed-sdk.7z" file at https://krikzz.com/pub/support/mega-everdrive/v1/dev/
 
-3) Compilar os fontes
+3) Compile the source code
 
-- Rodar aquivo build_.bat ou no prompt digitar: 
+- Run "_build.bat" file
 
-make clean_sms
+4) Get the "MSOS.smo" file and put it in the everdrive sd card (this is the firmware)
 
-make make_sms
-
-4) Pegar o arquivo MSOS.SMS (esse é o firmware usado no everdrive)
+5) Run the "MSOS.smo" file in the everdrive to update the firmware

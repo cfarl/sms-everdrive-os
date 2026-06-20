@@ -1,6 +1,8 @@
 SMS Everdrive source
 ====================
 
+Esse projeto é um fork do projeto encontrado em https://github.com/smspower/sms-everdrive-os
+
 Esse firmware funciona no everdrive chinês vendido no Ali Express.
 
 ------------------------------------------------------------------------------------
