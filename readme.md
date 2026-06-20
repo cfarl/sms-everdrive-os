@@ -5,6 +5,8 @@ This project is a fork of the source code used to generate the V1 Krikzz Master 
 
 The original source code can be found here: https://github.com/smspower/sms-everdrive-os
 
+The last compiled source code is the "MSOS.smo file" at the dist folder
+
 Important: This firmware works in the chinese everdrive sold in Ali Express.
 
 ------------------------------------------------------------------------------------
