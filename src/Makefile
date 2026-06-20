@@ -8,7 +8,7 @@ NM2WCH= $(GDK)bin/nm2wch
 OUTPUT= MDOS
 RESOL=BIN
 
-all:
+all: 
 
 #******************************************************************************* SMS
 HOME_Z80=c:/SDCC-3.3/bin
