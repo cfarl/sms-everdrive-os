@@ -1,0 +1,1 @@
+..\..\bin\mega-usb app.bin -os
