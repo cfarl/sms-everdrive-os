@@ -19,6 +19,7 @@
 u8 browser();
 //extern u8 cart_3e;
 
+/*
 u8 tmp;
 u8 bi_bank_is_empty(u8 cmp_val);
 void bi_clean_ram_bank(u8 val);
@@ -99,9 +100,8 @@ void acclaimDbg() {
         gRepaint();
 
     }
-
-
 }
+*/
 
 int main() {
 
@@ -112,7 +112,7 @@ int main() {
 
     resp = osInit();
 
-    acclaimDbg();
+    //acclaimDbg();
 
     // rtcTest();
     /*
