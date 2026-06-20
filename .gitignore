@@ -10,6 +10,5 @@
 *.asm
 /src/nbproject/
 *.stackdump
-*.exe
 *.o
 *.smx
